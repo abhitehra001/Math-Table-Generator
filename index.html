@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="./script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Table Generator</title>
+  </head>
+  <body>
+    <header>Tables Generator</header>
+    <section id="inputContainer">
+      <input id="input" type="text" onkeyup={validate()} required />
+      <button onClick="{generateTable()}">Generate</button>
+    </section>
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Table</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ones</td>
+            <td id="Ones"></td>
+          </tr>
+          <tr>
+            <td>Twos</td>
+            <td id="Twos"></td>
+          </tr>
+          <tr>
+            <td>Threes</td>
+            <td id="Threes"></td>
+          </tr>
+          <tr>
+            <td>Fours</td>
+            <td id="Fours"></td>
+          </tr>
+          <tr>
+            <td>Fives</td>
+            <td id="Fives"></td>
+          </tr>
+          <tr>
+            <td>Sixes</td>
+            <td id="Sixes"></td>
+          </tr>
+          <tr>
+            <td>Sevens</td>
+            <td id="Sevens"></td>
+          </tr>
+          <tr>
+            <td>Eights</td>
+            <td id="Eights"></td>
+          </tr>
+          <tr>
+            <td>Nines</td>
+            <td id="Nines"></td>
+          </tr>
+          <tr>
+            <td>Tens</td>
+            <td id="Tens"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>
